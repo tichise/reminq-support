@@ -488,16 +488,16 @@ h1, h2, h3, h4, h5, h6 {
 .hero-iphone {
   position: absolute;
   bottom: -56px;
-  left: -32px;
+  right: -24px;
   width: 26%;
   border-radius: 22px;
   border: 1px solid var(--border-soft);
   filter: drop-shadow(0 32px 64px rgba(0, 0, 0, 0.55));
-  transform: rotate(-4deg);
+  transform: rotate(4deg);
 }
 
 @media (max-width: 960px) {
-  .hero-iphone { width: 30%; left: -16px; bottom: -32px; }
+  .hero-iphone { width: 30%; right: -12px; bottom: -32px; }
 }
 
 @media (max-width: 720px) {
