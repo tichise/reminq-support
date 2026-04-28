@@ -483,12 +483,6 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 18px;
   border: 1px solid var(--border-soft);
   box-shadow: var(--shadow-3);
-  transform: rotateX(8deg) rotateY(-2deg);
-  transition: transform 0.8s var(--ease-out);
-}
-
-.hero-stage:hover .hero-ipad {
-  transform: rotateX(2deg) rotateY(0);
 }
 
 .hero-iphone {
@@ -496,13 +490,8 @@ h1, h2, h3, h4, h5, h6 {
   bottom: -40px;
   left: -20px;
   width: 18%;
+  border-radius: 18px;
   filter: drop-shadow(0 24px 48px rgba(0, 0, 0, 0.5));
-  animation: heroFloat 6s ease-in-out infinite;
-}
-
-@keyframes heroFloat {
-  0%, 100% { transform: translateY(0) rotate(-4deg); }
-  50% { transform: translateY(-16px) rotate(-4deg); }
 }
 
 @media (max-width: 720px) {
