@@ -1,6 +1,6 @@
 # Reminq サポートページ
 
-このリポジトリは、iOS・iPadOS・macOS の標準リマインダーをカンバンボードで管理するタスク管理アプリ「Reminq」のサポート用です。サポートサイト [reminq.tokyo](https://reminq.tokyo) のソースもここで管理しています。
+このリポジトリは、iOS・iPadOS・macOS の標準リマインダーをカンバンボードで管理するタスク管理アプリ「Reminq」のサポート用です。サポートサイト（[tichise.github.io/reminq-support](https://tichise.github.io/reminq-support/)）のソースもここで管理しています。
 
 ## アプリの特徴
 
@@ -22,7 +22,7 @@
 
 ## プライバシー
 
-データはすべて端末内のリマインダーに保存され、外部サーバーへの送信はありません（AI 機能利用時を除く）。詳細は [プライバシーポリシー](https://reminq.tokyo/privacy-policy.html) をご覧ください。
+データはすべて端末内のリマインダーに保存され、外部サーバーへの送信はありません（AI 機能利用時を除く）。詳細は [プライバシーポリシー](https://tichise.github.io/reminq-support/privacy-policy.html) をご覧ください。
 
 ## バグ報告
 
