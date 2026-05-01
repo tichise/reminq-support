@@ -31,6 +31,11 @@
       }
     });
 
+    document.querySelectorAll("[data-src-ja]").forEach((el) => {
+      const src = el.getAttribute(`data-src-${lang}`);
+      if (src) el.setAttribute("src", src);
+    });
+
     document.querySelectorAll(".lang-toggle button").forEach((btn) => {
       btn.classList.toggle("active", btn.dataset.lang === lang);
     });

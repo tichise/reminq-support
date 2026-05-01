@@ -124,10 +124,14 @@
 
             <div class="hero-stage">
                 <img src="images/screenshot/ipad/ja/raw/01-board.png"
-                     alt="Reminq の iPad 画面"
+                     data-src-ja="images/screenshot/ipad/ja/raw/01-board.png"
+                     data-src-en="images/screenshot/ipad/en/raw/01-board.png"
+                     alt="Reminq board on iPad"
                      class="hero-ipad" loading="eager">
                 <img src="images/screenshot/iphone/ja/raw/02-kanban.png"
-                     alt="Reminq の iPhone 画面"
+                     data-src-ja="images/screenshot/iphone/ja/raw/02-kanban.png"
+                     data-src-en="images/screenshot/iphone/en/raw/02-kanban.png"
+                     alt="Reminq kanban on iPhone"
                      class="hero-iphone" loading="eager">
             </div>
         </div>
@@ -289,9 +293,12 @@
                 </p>
                 <div class="visual">
                     <div style="display:flex;align-items:center;gap:8px;color:var(--ink-secondary);">
-                        <span style="color:var(--accent);font-weight:700;">└</span> 資料を作る
+                        <span style="color:var(--accent);font-weight:700;">└</span>
+                        <span data-lang-ja="資料を作る" data-lang-en="Make a deck">資料を作る</span>
                     </div>
-                    <div style="margin-top:8px;color:var(--accent-deep);font-size:11px;font-family:var(--font-mono);">→ 5 ステップに分解</div>
+                    <div style="margin-top:8px;color:var(--accent-deep);font-size:11px;font-family:var(--font-mono);">
+                        <span data-lang-ja="→ 5 ステップに分解" data-lang-en="→ 5 doable steps">→ 5 ステップに分解</span>
+                    </div>
                 </div>
             </div>
             <div class="loop-card reveal" data-accent="violet">
@@ -304,17 +311,17 @@
                 <div class="visual">
                     <div class="kanban-mini">
                         <div class="kanban-col" data-status="todo">
-                            <div class="kanban-col-head"><span class="dot"></span>TODO</div>
-                            <div class="kanban-card">目次</div>
-                            <div class="kanban-card">レビュー依頼</div>
+                            <div class="kanban-col-head"><span class="dot"></span><span data-lang-ja="やること" data-lang-en="To Do">やること</span></div>
+                            <div class="kanban-card" data-lang-ja="目次" data-lang-en="Outline">目次</div>
+                            <div class="kanban-card" data-lang-ja="レビュー依頼" data-lang-en="Review request">レビュー依頼</div>
                         </div>
                         <div class="kanban-col" data-status="progress">
-                            <div class="kanban-col-head"><span class="dot"></span>進行中</div>
-                            <div class="kanban-card">執筆</div>
+                            <div class="kanban-col-head"><span class="dot"></span><span data-lang-ja="進行中" data-lang-en="In Progress">進行中</span></div>
+                            <div class="kanban-card" data-lang-ja="執筆" data-lang-en="Drafting">執筆</div>
                         </div>
                         <div class="kanban-col" data-status="done">
-                            <div class="kanban-col-head"><span class="dot"></span>完了</div>
-                            <div class="kanban-card">リサーチ</div>
+                            <div class="kanban-col-head"><span class="dot"></span><span data-lang-ja="完了" data-lang-en="Done">完了</span></div>
+                            <div class="kanban-card" data-lang-ja="リサーチ" data-lang-en="Research">リサーチ</div>
                         </div>
                     </div>
                 </div>
@@ -575,6 +582,6 @@
     </div>
 </footer>
 
-<script src="script.js"></script>
+<script src="script.js?v=20260501"></script>
 </body>
 </html>
