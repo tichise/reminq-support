@@ -15,9 +15,9 @@
 
 ## 対応環境
 
-- iOS 18+
-- iPadOS 18+
-- macOS 15+
+- iOS 26+
+- iPadOS 26+
+- macOS 26+
 - 言語: 日本語 / English
 
 ## プライバシー
